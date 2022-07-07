@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+    margin: 0 0 0 0;
+}
+
+.poster {
+    margin: 0 0 0 25px;
+    float: left;
+}
+
+.poster img {
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+iframe {
+    float: right;
+    margin: 50px 25px 0 0;
+}
+
+.copyright {
+    float: left;
+    margin-left: 260px;
+}
