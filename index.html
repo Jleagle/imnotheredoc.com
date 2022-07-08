@@ -1,22 +1,42 @@
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>I'm Not Here</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
 </head>
-
 <body>
-<div class="poster">
-    <img src="poster.jpg" alt="Poster">
-</div>
-<iframe width="750" height="450" src="https://www.youtube.com/embed/x5kHHyB0brk" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
 
-<div class="copyright">
-    <p>All content &copy; Straw Lane Productions &amp; Juno Jakob 2022</p>
+<div class="container">
+
+    <div class="row">
+        <div class="col-12 col-xl-6">
+            <div class="d-block d-xl-flex flex-column justify-content-center full-height">
+                <img src="poster.jpg" alt="Poster" id="poster">
+            </div>
+        </div>
+        <div class="col-12 col-xl-6">
+
+            <div class="d-block d-xl-flex flex-column justify-content-center full-height">
+
+                <div class="ratio ratio-16x9 mt-5 mt-xl-0">
+                    <iframe class=""
+                            src="https://www.youtube.com/embed/x5kHHyB0brk"
+                            title="I'm Not Here"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            id="video"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+
+                <p class="text-center">All content &copy; Straw Lane Productions &amp; Juno Jakob 2022</p>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 </body>
